@@ -1,0 +1,8 @@
+
+pandas
+numpy
+matplotlib
+seaborn
+plotly
+scipy
+warnings  # Not necessary to install separately, it's part of Python's built-in libraries.
