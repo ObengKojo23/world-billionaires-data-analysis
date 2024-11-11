@@ -43,7 +43,7 @@ To get started with this project, follow the steps below:
 
 1. **Clone the Repository**
     ```bash
-    git clone https://github.com/your-username/billionaire-data-analysis.git
+    git clone https://github.com/your-username/world-billionaire-data-analysis.git
     cd billionaire-data-analysis
     ```
 
@@ -144,9 +144,10 @@ This project is licensed under the [MIT License](LICENSE).
 
 For any questions or suggestions, feel free to reach out:
 
-- **Email**: your.email@example.com
+- **Email**: emmanuel.o.afari@gmail.com
 - **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/your-profile/)
-- **GitHub**: [your-username](https://github.com/your-username)
+- **GitHub**: [your-username](https://github.com/ObengKojo23)
+- **YouTube**: [](https://youtube.com/obengkojo)
 
 ---
 *Data is sourced from [Forbes Billionaires List](https://www.forbes.com/billionaires/) and is used for educational and analytical purposes only.*
