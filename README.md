@@ -17,7 +17,7 @@ This analysis explores various aspects of the global billionaire population usin
 ---
 
 ### 💾 Dataset Summary
-
+The dataset used in this project contains comprehensive information about billionaires. The data was sourced from [kaggle]([https://www.forbes.com/billionaires/](https://www.kaggle.com/datasets/nelgiriyewithana/billionaires-statistics-dataset)). Below is a table of the data summary.
 | Column                             | Description                                                   |
 |------------------------------------|---------------------------------------------------------------|
 | `rank`                             | The ranking of the billionaire in terms of wealth.             |
