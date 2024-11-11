@@ -85,10 +85,16 @@ The following 17 questions were addressed using the dataset:
 
 - **Non-Graphical Analysis**: The first step of the EDA involves looking at summary statistics, null values, and unique values for various columns to get an understanding of the data structure and potential cleaning needs.
   
-- **Graphical Analysis**: Visuals such as bar plots, pie charts, and histograms are used to uncover trends in billionaire distribution by gender, age, wealth source, and geographical region.
+
 
 ---
+- **Graphical Analysis**: Visuals such as bar plots, pie charts, and histograms are used to uncover trends in billionaire distribution by gender, age, wealth source, and geographical region.
 
+This section was used to visualize all the
+
+### 5.1 What is the distribution of billionaires by gender?
+![](./images/5.1)
+---
 ### 🧑‍💻 Key Insights
 
 - **Wealth Distribution**: Analysis of net worth reveals significant disparities between self-made and inherited billionaires.
