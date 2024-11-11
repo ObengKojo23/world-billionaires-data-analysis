@@ -42,17 +42,6 @@ This analysis explores various aspects of the global billionaire population usin
 
 ---
 
-### 📋 Table of Contents
-
-1. [Importing Packages](#one)
-2. [Loading Data](#two)
-3. [Exploratory Data Analysis (EDA) - Non-Graphical](#three)
-4. [Data Preprocessing](#four)
-5. [Exploratory Data Analysis (EDA) - Graphical](#five)
-6. [Summary](#six)
-
----
-
 ### 🚀 How to Run This Project
 
 1. **Clone the Repository**  
