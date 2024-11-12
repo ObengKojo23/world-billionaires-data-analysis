@@ -110,6 +110,7 @@ For the data processing and preparation for this project I employed several step
 - **Column Renaming**:
    - Key columns were renamed for clarity and consistency, such as changing `personname` to `full_name` and `countryofcitizenship` to `country_of_citizenship`.
 
+
 - **Month Conversion**:
    - A dictionary was created to convert numeric month values (1 to 12) to their corresponding three-letter month abbreviations (e.g., `1` to `Jan`). This was applied to the `birth_month` column to improve readability.
 
@@ -340,17 +341,29 @@ The analysis of the world's billionaires dataset involved examining key metrics 
 <a href=#cont>Back to Project Structur</a>
 
 ------
-## Technologies Used 🛠 
+### 5.1 Technologies Used 🛠 
 
 - **Python**: Data manipulation and analysis
 - **Pandas**: For data manipulation
 - **Matplotlib & Seaborn**: For data visualization
 - **Plotly**: For interactive visualizations
 - **Scipy**: For statistical analysis
-- **Jupyter Notebook**: For organizing the analysis
+- **Jupyter Notebook**: For organizing the analysis and documentation 
+- **Photoshop**: For Graphic designing
+- **Git/GitHub:** Used as my version control tool to manage and document my project changes and sharing of findings. 
 
 ---
-## How to Run This Project 🚀 
+### 5.2 Skills Employed 🧠 
+- **Python Programming for Data Analysis:** Utilized Python libraries such as `pandas`, `numpy`, and `matplotlib` for data manipulation, statistical analysis, and visualization.
+- **Data Cleaning and Preprocessing:** Employed techniques to handle missing values, formatting columns and converting data types.
+- **Exploratory Data Analysis (EDA):** Conducted in-depth analysis to explore data distributions, identify trends, and uncover patterns in billionaire wealth, age, and sector.
+- **Data Visualization:** Created visualizations (bar charts, pie chart, scatter plots, bubble plots) using `seaborn`, `plotly` and `matplotlib` to represent trends, distributions, and relationships in the data.
+- **Statistical Analysis:** Applied descriptive statistics and correlation analysis to understand the data’s underlying patterns.
+- **Feature Engineering:** Created new features to enhance the analysis of billionaires' characteristics.
+- **Project Documentation:** Documented all Python codes, analysis steps, and findings to ensure reproducibility and clarity for future reference.
+
+
+## 5.3 How to Run This Project 🚀 
 
 1. **Clone the Repository**  
    Run the following command to clone the repository to your local machine:
@@ -370,15 +383,23 @@ The analysis of the world's billionaires dataset involved examining key metrics 
 
 Contributing
 Contributions are welcome! If you have suggestions or improvements, please create a pull request or open an issue.
+### 5.4 References
+1. The Billionaires Database was sourced from [kaggle.com](https://www.kaggle.com/datasets/nelgiriyewithana/billionaires-statistics-dataset)
+2. Original Banner image sourced from [freepik.com](https://www.freepik.com) and redesigned by me `(ObengKojo)`.
+
+
 
 ## Contact
 
 For any questions or suggestions, feel free to reach out:
 
 - **Email**: emmanuel.o.afari@gmail.com
-- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/obengafari)
-- **GitHub**: [your-username](https://github.com/ObengKojo23)
-- **YouTube**: [](https://youtube.com/obengkojo)
+- **LinkedIn**: [LinkedIn Page](https://www.linkedin.com/in/obengafari)
+- **GitHub**: [GitHub page](https://github.com/ObengKojo23)
+- **YouTube**: [YouTube tutorials](https://youtube.com/obengkojo)
 
 ---
-*Data is sourced from [Forbes Billionaires List](https://www.forbes.com/billionaires/) and is used for educational and analytical purposes only.*
+
+
+
+
