@@ -13,9 +13,9 @@
 
 <a href=#four>4. Conclusion</a>
 
-<a href=#five>5. </a>
+<a href=#five>6. </a>
 
-<a href=#six>. Conclusion</a>
+
 
 ---
  <a id="one"></a>
