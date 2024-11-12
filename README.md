@@ -363,14 +363,13 @@ The analysis of the world's billionaires dataset involved examining key metrics 
 ### 5.4 References
 - The Billionaires Database was sourced from [kaggle.com](https://www.kaggle.com/datasets/nelgiriyewithana/billionaires-statistics-dataset)
 -  Original Banner image sourced from [freepik.com](https://www.freepik.com) and redesigned by me `(ObengKojo)`.
--   For more information on billionaires, refer to [The World's Billionaires on Wikipedia](https://en.wikipedia.org/wiki/The_World%27s_Billionaires) or [The World's Billionaires on Forbes](
-https://www.forbes.com/billionaires)
+-   For more information on billionaires, refer to [The World's Billionaires on Wikipedia](https://en.wikipedia.org/wiki/The_World%27s_Billionaires) or [The World's Billionaires List on Forbes](https://www.forbes.com/billionaires)
 
 ---
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [Apache License](LICENSE).
 
 ## Contact
 For any questions or suggestions, feel free to reach out:
