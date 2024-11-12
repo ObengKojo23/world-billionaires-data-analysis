@@ -338,11 +338,9 @@ The analysis of the world's billionaires dataset involved examining key metrics 
 
  <a id="four"></a>
 ## **📁 5. Project Details**
-<a href=#cont>Back to Project Structur</a>
-
-------
+<a href=#cont>Back to Project Structure</a>
+---
 ### 5.1 Technologies Used 🛠 
-
 - **Python**: Data manipulation and analysis
 - **Pandas**: For data manipulation
 - **Matplotlib & Seaborn**: For data visualization
@@ -351,7 +349,6 @@ The analysis of the world's billionaires dataset involved examining key metrics 
 - **Jupyter Notebook**: For organizing the analysis and documentation 
 - **Photoshop**: For Graphic designing
 - **Git/GitHub:** Used as my version control tool to manage and document my project changes and sharing of findings. 
-
 ---
 ### 5.2 Skills Employed 🧠 
 - **Python Programming for Data Analysis:** Utilized Python libraries such as `pandas`, `numpy`, and `matplotlib` for data manipulation, statistical analysis, and visualization.
@@ -361,9 +358,8 @@ The analysis of the world's billionaires dataset involved examining key metrics 
 - **Statistical Analysis:** Applied descriptive statistics and correlation analysis to understand the data’s underlying patterns.
 - **Feature Engineering:** Created new features to enhance the analysis of billionaires' characteristics.
 - **Project Documentation:** Documented all Python codes, analysis steps, and findings to ensure reproducibility and clarity for future reference.
-
-
-## 5.3 How to Run This Project 🚀 
+---
+### 5.3 How to Run This Project 🚀 
 
 1. **Clone the Repository**  
    Run the following command to clone the repository to your local machine:
@@ -374,15 +370,10 @@ The analysis of the world's billionaires dataset involved examining key metrics 
    ```bash
    pip install -r requirements.txt
 3. **Run the Jupyter Notebook**  
-   Start Jupyter Notebook and run the `billionaires-data-analysis-2023.ipynb` file to reproduce the analysis. Use the following command to launch Jupyter:
-   Make sure that you have the dataset and the jupyter notebook file in the directory else you may have to change the read csv path in the notebook provided.
+   Start Jupyter Notebook and run the `billionaires-data-analysis-2023.ipynb` file to reproduce the analysis. Use the following command to launch Jupyter. Make sure that you have the dataset and the jupyter notebook file in the directory else you may have to change the read csv path in the notebook provided.
    ```bash
    jupyter notebook
 ---
-
-
-Contributing
-Contributions are welcome! If you have suggestions or improvements, please create a pull request or open an issue.
 ### 5.4 References
 1. The Billionaires Database was sourced from [kaggle.com](https://www.kaggle.com/datasets/nelgiriyewithana/billionaires-statistics-dataset)
 2. Original Banner image sourced from [freepik.com](https://www.freepik.com) and redesigned by me `(ObengKojo)`.
@@ -397,7 +388,6 @@ For any questions or suggestions, feel free to reach out:
 - **LinkedIn**: [LinkedIn Page](https://www.linkedin.com/in/obengafari)
 - **GitHub**: [GitHub page](https://github.com/ObengKojo23)
 - **YouTube**: [YouTube tutorials](https://youtube.com/obengkojo)
-
 ---
 
 
