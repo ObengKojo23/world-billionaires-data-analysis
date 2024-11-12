@@ -10,58 +10,17 @@
 - **Jupyter Notebook**: For organizing the analysis
 
 ---
-### 🌍 Introduction
+### 🌍 Project Overview
 
-This analysis explores various aspects of the global billionaire population using a dataset of billionaires, including their demographic details, wealth, and geographical distribution. The focus is on understanding how factors such as gender, age, region, and wealth type correlate with the concentration of billionaires worldwide. Additional insights include trends in self-made versus inherited wealth, birth month distributions, and the relationship between economic indicators and the number of billionaires in a country.
-
----
-
-### 💾 Dataset Summary
-The dataset used in this project contains comprehensive information about billionaires. The data was sourced from [kaggle]([https://www.forbes.com/billionaires/](https://www.kaggle.com/datasets/nelgiriyewithana/billionaires-statistics-dataset)). Below is a table of the data summary.
-| Column                             | Description                                                   |
-|------------------------------------|---------------------------------------------------------------|
-| `rank`                             | The ranking of the billionaire in terms of wealth.             |
-| `finalWorth`                       | The final net worth of the billionaire in U.S. dollars.        |
-| `category`                         | The category or industry in which the billionaire's business operates. |
-| `personName`                       | The full name of the billionaire.                             |
-| `age`                              | The age of the billionaire.                                   |
-| `country`                          | The country where the billionaire resides.                    |
-| `city`                             | The city where the billionaire resides.                       |
-| `source`                           | The source of the billionaire's wealth.                       |
-| `industries`                       | The industries associated with the billionaire's business interests. |
-| `countryOfCitizenship`             | The country of citizenship of the billionaire.                |
-| `organization`                     | The name of the organization or company associated with the billionaire. |
-| `selfMade`                         | Indicates whether the billionaire is self-made (True/False).  |
-| `status`                           | "D" for self-made (Founders/Entrepreneurs) and "U" for inherited wealth. |
-| `gender`                           | The gender of the billionaire.                                |
-| `birthDate`                        | The birthdate of the billionaire.                             |
-| `birthYear`, `birthMonth`, `birthDay` | Details about the birth year, month, and day of the billionaire. |
-| `cpi_country`, `gdp_country`       | Economic indicators like CPI and GDP for the billionaire's country. |
-| `population_country`               | Population of the billionaire's country.                      |
-| ...                                | Additional socioeconomic factors tied to the billionaire's country. |
+This project aims to explore various aspects of the global billionaire population using a dataset of billionaires, including their demographic details, wealth, and geographical distribution. The focus is on understanding how factors such as gender, age, region, and wealth type correlate with the concentration of billionaires worldwide. Additional insights include trends in self-made versus inherited wealth, birth month distributions, and the relationship between economic indicators and the number of billionaires in a country.
 
 ---
 
-### 🚀 How to Run This Project
+### 🌍 Objective
 
-1. **Clone the Repository**  
-   Run the following command to clone the repository to your local machine:
-   ```bash
-   git clone https://github.com/ObengKojo23/worlds-billionaires-analysis.git
-2. **Install Dependencies**  
-   Install the required Python packages by running:
-   ```bash
-   pip install -r requirements.txt
-3. **Run the Jupyter Notebook**  
-   Start Jupyter Notebook and run the `billionaires-data-analysis-2023.ipynb` file to reproduce the analysis. Use the following command to launch Jupyter:
+To deliver a data-driven analysis that uncovers patterns and trends in global wealth distribution among billionaires. The objective is to identify key characteristics that distinguish self-made versus inherited wealth, understand how demographics and economic indicators correlate with billionaire populations, and examine the factors contributing to the concentration of wealth in certain regions and industries. This project aims to offer actionable insights into the global wealth landscape and the forces shaping it.
 
-   ```bash
-   jupyter notebook
----
-
-### 🔍 Exploratory Data Analysis
-
-The following 17 questions were addressed using the dataset:
+The project seeks to answer these 17 questions
 
 1. **What is the distribution of billionaires by gender?**
 2. **How is wealth distributed among self-made billionaires compared to those who inherited their wealth?**
@@ -81,18 +40,99 @@ The following 17 questions were addressed using the dataset:
 16. **What trends can be observed in the wealth accumulation of younger versus older billionaires?**
 17. **How has the number of billionaires evolved over time, particularly in key industries?**
 
+
+### 💾 Dataset Summary
+The dataset used in this project contains comprehensive information about billionaires. The data was sourced from [kaggle]([https://www.forbes.com/billionaires/](https://www.kaggle.com/datasets/nelgiriyewithana/billionaires-statistics-dataset)). Below is a table of the data summary.
+
+| Column    | Description                                                      |
+|-----------|------------------------------------------------------------------|
+| `rank`: | The ranking of the billionaire in terms of wealth. |
+| `finalWorth`: | The final net worth of the billionaire in U.S dollars. |
+| `category`: | The category or industry in which the billionaire's business operates. |
+| `personName`: | The full name of the billionaire. |
+| `age`: | The age of the billionaire. |
+| `country`: | The country in which the billionaire resides. |
+| `city`: | The city in which the billionaire resides. |
+| `source`: | The source of the billionaire's wealth. |
+| `industries`: | The industries associated with the billionaire's business interests. |
+| `countryOfCitizenship`: | The country of citizenship of the billionaire. |
+| `organization`: | The name of the organization or company associated with the billionaire. |
+| `selfMade`: | Indicates whether the billionaire is self-made (True/False). |
+| `status`: | "D" represents self-made billionaires (Founders/Entrepreneurs) and "U" indicates inherited or unearned wealth. |
+| `gender`: | The gender of the billionaire. |
+| `birthDate`: | The birthdate of the billionaire. |
+| `lastName`: | The last name of the billionaire. |
+| `firstName`: | The first name of the billionaire. |
+| `title`: | The title or honorific of the billionaire. |
+| `date`: | The date of data collection. |
+| `state`: | The state in which the billionaire resides. |
+| `residenceStateRegion`: | The region or state of residence of the billionaire. |
+| `birthYear`: | The birth year of the billionaire. |
+| `birthMonth`: | The birth month of the billionaire. |
+| `birthDay`: | The birth day of the billionaire. |
+| `cpi_country`: | Consumer Price Index (CPI) for the billionaire's country. |
+| `cpi_change_country`: | CPI change for the billionaire's country. |
+| `gdp_country`: | Gross Domestic Product (GDP) for the billionaire's country. |
+| `gross_tertiary_education_enrollment`: | Enrollment in tertiary education in the billionaire's country. |
+| `gross_primary_education_enrollment_country`: | Enrollment in primary education in the billionaire's country. |
+| `life_expectancy_country`: | Life expectancy in the billionaire's country. |
+| `tax_revenue_country_country`: | Tax revenue in the billionaire's country. |
+| `total_tax_rate_country`: | Total tax rate in the billionaire's country. |
+| `population_country`: | Population of the billionaire's country. |
+| `latitude_country`: | Latitude coordinate of the billionaire's country. |
+| `longitude_country`: | Longitude coordinate of the billionaire's country. |
+
 ---
 
-- **Non-Graphical Analysis**: The first step of the EDA involves looking at summary statistics, null values, and unique values for various columns to get an understanding of the data structure and potential cleaning needs.
-  
+### 🚀 How to Run This Project
 
+1. **Clone the Repository**  
+   Run the following command to clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/ObengKojo23/worlds-billionaires-analysis.git
+2. **Install Dependencies**  
+   Install the required Python packages by running:
+   ```bash
+   pip install -r requirements.txt
+3. **Run the Jupyter Notebook**  
+   Start Jupyter Notebook and run the `billionaires-data-analysis-2023.ipynb` file to reproduce the analysis. Use the following command to launch Jupyter:
+   Make sure that you have the dataset and the jupyter notebook file in the directory else you may have to change the read csv path in the notebook provided.
+   ```bash
+   jupyter notebook
+---
+
+ 
+---
+## Data Processing & Preparation
+The data processing and preparation for this project involved several steps to ensure consistency, accuracy, and usability of the dataset. Here’s a summary of the transformations applied:
+
+1. **Column Formatting**:
+   - All column names were standardized to lowercase, and spaces were replaced with underscores for easier access and consistency.
+
+2. **Data Type Conversion**:
+   - The `gdp_country` column had dollar signs (`$`) and commas removed, and the data type was converted to `float` to support numerical analysis.
+   - Similarly, the `finalworth` column had the dollar sign and "B" (billion) symbol removed and was converted to a float, assuming figures are in billions.
+
+3. **Date Formatting**:
+   - The `date` column was converted to a datetime format and displayed as `MM/DD/YYYY` for consistency in date representation.
+
+4. **Column Renaming**:
+   - Key columns were renamed for clarity and consistency, such as changing `personname` to `full_name` and `countryofcitizenship` to `country_of_citizenship`.
+
+5. **Month Conversion**:
+   - A dictionary was created to convert numeric month values (1 to 12) to their corresponding three-letter month abbreviations (e.g., `1` to `Jan`). This was applied to the `birth_month` column to improve readability.
+
+6. **Handling Missing Values**:
+   - For specified columns (`country`, `title`, `organization`, `residence_state_region`, `state`), missing values were filled with "Unknown" to avoid issues with null data during analysis and to maintain data completeness.
+
+7. **Region Mapping**:
+   - A dictionary was created to map each country to its respective region (e.g., `France` to `Europe`, `India` to `Asia`). A new column, `region`, was added based on the `country_of_citizenship` column, providing a broader regional context for each billionaire's country.
+
+These data cleaning steps resulted in a well-structured dataset ready for analysis, with standardized column names, consistent date and currency formats, filled missing values, mapped regional information, and improved readability of categorical values.
 
 ---
-- **Graphical Analysis**: Visuals such as bar plots, pie charts, and histograms are used to uncover trends in billionaire distribution by gender, age, wealth source, and geographical region.
+## Visualisation of Results
 
-This section was used to visualize all the
-
----
 ### 5.1 Who is the wealthiest person on the planet as at August 2023❓
 ![](./images/5.1.png)
 
@@ -292,8 +332,26 @@ The data highlights the predominance of self-made billionaires in the current ec
 
 ---
 
-### 📊 Summary
+### 📊 Conclusion 
 
 The analysis provides a comprehensive look at the world's billionaire population and the various factors influencing wealth creation and distribution. By correlating socioeconomic factors with billionaire presence, this project sheds light on how wealth is amassed and maintained globally.
 
+## Conclusion
+
+This analysis provides valuable insights into the demographics and distribution of global billionaires. Understanding these patterns can inform economic studies, investment strategies, and policy-making. Future work could include a deeper dive into the factors contributing to wealth accumulation and the impact of global economic changes on billionaire demographics.
+
 ---
+Contributing
+Contributions are welcome! If you have suggestions or improvements, please create a pull request or open an issue.
+
+## Contact
+
+For any questions or suggestions, feel free to reach out:
+
+- **Email**: emmanuel.o.afari@gmail.com
+- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/your-profile/)
+- **GitHub**: [your-username](https://github.com/ObengKojo23)
+- **YouTube**: [](https://youtube.com/obengkojo)
+
+---
+*Data is sourced from [Forbes Billionaires List](https://www.forbes.com/billionaires/) and is used for educational and analytical purposes only.*
