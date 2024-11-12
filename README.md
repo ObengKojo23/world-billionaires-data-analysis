@@ -21,6 +21,7 @@
  <a id="one"></a>
 ## **📊 1. Introduction**
 <a href=#cont>Back to Project Structure</a>
+
 ### 1.1 Project Overview
 This project aims to explore various aspects of the global billionaire population using a dataset of billionaires, including their demographic details, wealth, and geographical distribution. The focus is on understanding how factors such as gender, age, region, and wealth type correlate with the concentration of billionaires worldwide. Additional insights include trends in self-made versus inherited wealth, birth month distributions, and the relationship between economic indicators and the number of billionaires in a country.
 
@@ -329,7 +330,8 @@ The data highlights the predominance of self-made billionaires in the current ec
  <a id="4"></a>
 ## **📊 4. Conclusion**
 <a href=#cont>Back to Project Structure</a>
----
+
+ ---
 The analysis provides a comprehensive look at the world's billionaire population and the various factors influencing wealth creation and distribution. By correlating socioeconomic factors with billionaire presence, this project sheds light on how wealth is amassed and maintained globally.
 
 
