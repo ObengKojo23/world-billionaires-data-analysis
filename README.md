@@ -120,7 +120,7 @@ These data cleaning steps resulted in a well-structured dataset ready for full a
 ## **📊 3. Visualisation of Results**
 <a href=#cont>Back to Project Structure</a>
 
-This Results section presents a range of charts and graphs created to answer 17 key questions about global billionaires, such as wealth distribution, industry dominance, and regional patterns. By transforming complex data into visual insights, these visualizations provide a clear, intuitive understanding of trends and relationships within the billionaire dataset.
+This section presents a range of charts and graphs created to answer 17 key questions about global billionaires, such as wealth distribution, industry dominance, and regional patterns. By transforming complex data into visual insights, these visualizations provide a clear, intuitive understanding of trends and relationships within the billionaire dataset.
 
 NB: All python codes used in generating visuals and results can be accessed in the [jupyter notebook file](billionaires-data-anaylsis-2023.ipynb)
 
