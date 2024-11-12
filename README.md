@@ -53,41 +53,41 @@ The dataset used in this project contains comprehensive information about billio
 
 | Column    | Description                                                      |
 |-----------|------------------------------------------------------------------|
-| `rank`: | The ranking of the billionaire in terms of wealth. |
-| `finalWorth`: | The final net worth of the billionaire in U.S dollars. |
-| `category`: | The category or industry in which the billionaire's business operates. |
-| `personName`: | The full name of the billionaire. |
-| `age`: | The age of the billionaire. |
-| `country`: | The country in which the billionaire resides. |
-| `city`: | The city in which the billionaire resides. |
-| `source`: | The source of the billionaire's wealth. |
-| `industries`: | The industries associated with the billionaire's business interests. |
-| `countryOfCitizenship`: | The country of citizenship of the billionaire. |
-| `organization`: | The name of the organization or company associated with the billionaire. |
-| `selfMade`: | Indicates whether the billionaire is self-made (True/False). |
-| `status`: | "D" represents self-made billionaires (Founders/Entrepreneurs) and "U" indicates inherited or unearned wealth. |
-| `gender`: | The gender of the billionaire. |
-| `birthDate`: | The birthdate of the billionaire. |
-| `lastName`: | The last name of the billionaire. |
-| `firstName`: | The first name of the billionaire. |
-| `title`: | The title or honorific of the billionaire. |
-| `date`: | The date of data collection. |
-| `state`: | The state in which the billionaire resides. |
-| `residenceStateRegion`: | The region or state of residence of the billionaire. |
-| `birthYear`: | The birth year of the billionaire. |
-| `birthMonth`: | The birth month of the billionaire. |
-| `birthDay`: | The birth day of the billionaire. |
-| `cpi_country`: | Consumer Price Index (CPI) for the billionaire's country. |
-| `cpi_change_country`: | CPI change for the billionaire's country. |
-| `gdp_country`: | Gross Domestic Product (GDP) for the billionaire's country. |
-| `gross_tertiary_education_enrollment`: | Enrollment in tertiary education in the billionaire's country. |
-| `gross_primary_education_enrollment_country`: | Enrollment in primary education in the billionaire's country. |
-| `life_expectancy_country`: | Life expectancy in the billionaire's country. |
-| `tax_revenue_country_country`: | Tax revenue in the billionaire's country. |
-| `total_tax_rate_country`: | Total tax rate in the billionaire's country. |
-| `population_country`: | Population of the billionaire's country. |
-| `latitude_country`: | Latitude coordinate of the billionaire's country. |
-| `longitude_country`: | Longitude coordinate of the billionaire's country. |
+| rank: | The ranking of the billionaire in terms of wealth. |
+| finalWorth: | The final net worth of the billionaire in U.S dollars. |
+| category: | The category or industry in which the billionaire's business operates. |
+| personName: | The full name of the billionaire. |
+| age: | The age of the billionaire. |
+| country: | The country in which the billionaire resides. |
+| city: | The city in which the billionaire resides. |
+| source: | The source of the billionaire's wealth. |
+| industries: | The industries associated with the billionaire's business interests. |
+| countryOfCitizenship: | The country of citizenship of the billionaire. |
+| organization: | The name of the organization or company associated with the billionaire. |
+| selfMade: | Indicates whether the billionaire is self-made (True/False). |
+| status: | "D" represents self-made billionaires (Founders/Entrepreneurs) and "U" indicates inherited or unearned wealth. |
+| gender: | The gender of the billionaire. |
+| birthDate: | The birthdate of the billionaire. |
+| lastName: | The last name of the billionaire. |
+| firstName: | The first name of the billionaire. |
+| title: | The title or honorific of the billionaire. |
+| date: | The date of data collection. |
+| state: | The state in which the billionaire resides. |
+| residenceStateRegion: | The region or state of residence of the billionaire. |
+| birthYear: | The birth year of the billionaire. |
+| birthMonth: | The birth month of the billionaire. |
+| birthDay: | The birth day of the billionaire. |
+| cpi_country: | Consumer Price Index (CPI) for the billionaire's country. |
+| cpi_change_country: | CPI change for the billionaire's country. |
+| gdp_country: | Gross Domestic Product (GDP) for the billionaire's country. |
+| gross_tertiary_education_enrollment: | Enrollment in tertiary education in the billionaire's country. |
+| gross_primary_education_enrollment_country: | Enrollment in primary education in the billionaire's country. |
+| life_expectancy_country: | Life expectancy in the billionaire's country. |
+| tax_revenue_country_country: | Tax revenue in the billionaire's country. |
+| total_tax_rate_country: | Total tax rate in the billionaire's country. |
+| population_country: | Population of the billionaire's country. |
+| latitude_country: | Latitude coordinate of the billionaire's country. |
+| longitude_country: | Longitude coordinate of the billionaire's country. |
 
 ---
 
@@ -96,27 +96,19 @@ The dataset used in this project contains comprehensive information about billio
 <a href=#cont>Back to Project Structure</a>
 
 For the data processing and preparation for this project I employed several steps to ensure consistency, accuracy, and usability of the dataset. Here’s a summary of the transformations I applied:
-
 - **Column Formatting**:
    - All column names were standardized to lowercase, and spaces were replaced with underscores for easier access and consistency.
-
 - **Data Type Conversion**:
    - The `gdp_country` column had dollar signs (`$`) and commas removed, and the data type was converted to `float` to support numerical analysis.
    - Similarly, the `finalworth` column had the dollar sign and "B" (billion) symbol removed and was converted to a float, assuming figures are in billions.
-
 - **Date Formatting**:
    - The `date` column was converted to a datetime format and displayed as `MM/DD/YYYY` for consistency in date representation.
-
 - **Column Renaming**:
    - Key columns were renamed for clarity and consistency, such as changing `personname` to `full_name` and `countryofcitizenship` to `country_of_citizenship`.
-
-
 - **Month Conversion**:
    - A dictionary was created to convert numeric month values (1 to 12) to their corresponding three-letter month abbreviations (e.g., `1` to `Jan`). This was applied to the `birth_month` column to improve readability.
-
 - **Handling Missing Values**:
    - For specified columns (`country`, `title`, `organization`, `residence_state_region`, `state`), missing values were filled with "Unknown" to avoid issues with null data during analysis and to maintain data completeness.
-
 - **Region Mapping**:
    - A dictionary was created to map each country to its respective region (e.g., `France` to `Europe`, `India` to `Asia`). A new column, `region`, was added based on the `country_of_citizenship` column, providing a broader regional context for each billionaire's country.
 
