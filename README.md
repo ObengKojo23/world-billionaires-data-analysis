@@ -13,9 +13,7 @@
 
 <a href=#four>4. Conclusion</a>
 
-<a href=#five>6. </a>
-
-
+<a href=#five>5. Project Details</a>
 
 ---
  <a id="one"></a>
@@ -321,20 +319,22 @@ The data highlights the predominance of self-made billionaires in the current ec
 - **Economic Implications**: These findings suggest that countries with larger economies (higher GDP) are likely to have more billionaires, highlighting the influence of economic prosperity on wealth accumulation. However, the weak correlation indicates that GDP alone is not a definitive predictor of billionaire presence, and other factors may also be at play.
 
 ---
+
+ <a id="four"></a>
+## **📊 4. Conclusion**
+<a href=#cont>Back to Project Structure</a>
 ### 🧑‍💻 Key Insights Summary
 
 - **Wealth Distribution**: Analysis of net worth reveals significant disparities between self-made and inherited billionaires.
 - **Geographic Focus**:  Wealth is highly concentrated in certain countries, cities, and industries, with the United States and China, as well as sectors like technology and finance, leading in billionaire density.
 - **Demographics**: Trends in gender and age distribution show that most billionaires fall within specific age brackets, and self-made wealth is more common among younger billionaires.
 
- <a id="4"></a>
-## **📊 4. Conclusion**
-<a href=#cont>Back to Project Structure</a>
-
  ---
 The analysis provides a comprehensive look at the world's billionaire population and the various factors influencing wealth creation and distribution. By correlating socioeconomic factors with billionaire presence, this project sheds light on how wealth is amassed and maintained globally.
 
-
+ <a id="four"></a>
+## **📊 5. Project Details**
+<a href=#cont>Back to Project Structur</a>
 
 ------
 ## 🛠 Technologies Used
@@ -352,7 +352,7 @@ The analysis provides a comprehensive look at the world's billionaire population
 1. **Clone the Repository**  
    Run the following command to clone the repository to your local machine:
    ```bash
-   git clone https://github.com/ObengKojo23/worlds-billionaires-analysis.git
+   git clone https://github.com/ObengKojo23/world-billionaires-analysis.git
 2. **Install Dependencies**  
    Install the required Python packages by running:
    ```bash
