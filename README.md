@@ -130,7 +130,7 @@ These data cleaning steps resulted in a well-structured dataset ready for full a
 
 This Results section presents a range of charts and graphs created to answer 17 key questions about global billionaires, such as wealth distribution, industry dominance, and regional patterns. By transforming complex data into visual insights, these visualizations provide a clear, intuitive understanding of trends and relationships within the billionaire dataset.
 
-NB: All python codes used in generating visuals and results can be accessed in the [jupyter notebook file](billionaires-data-analysis-2023.ipyn)
+NB: All python codes used in generating visuals and results can be accessed in the [jupyter notebook file](billionaires-data-anaylsis-2023.ipynb)
 
 ### 3.1 Who is the wealthiest person on the planet as at August 2023❓
 ![](./images/5.1.png)
