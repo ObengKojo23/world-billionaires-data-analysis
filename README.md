@@ -22,11 +22,11 @@
 ## **🌍 1. Introduction**
 <a href=#cont>Back to Project Structure</a>
 
-### 1.1 📝 Project Overview
+### 1.1 Project Overview 📝
 This project aims to explore various aspects of the global billionaire population using a dataset of billionaires, including their demographic details, wealth, and geographical distribution. The focus is on understanding how factors such as gender, age, region, and wealth type correlate with the concentration of billionaires worldwide. Additional insights include trends in self-made versus inherited wealth, birth month distributions, and the relationship between economic indicators and the number of billionaires in a country.
 
 
-### 1.2 🎯 Objective
+### 1.2 Objective 🎯
 
 To deliver a data-driven analysis that uncovers patterns and trends in global wealth distribution among billionaires. The objective is to identify key characteristics that distinguish self-made versus inherited wealth, understand how demographics and economic indicators correlate with billionaire populations, and examine the factors contributing to the concentration of wealth in certain regions and industries. This project aims to offer actionable insights into the global wealth landscape and the forces shaping it by answering these underlisted 17 questions.
 
@@ -48,7 +48,7 @@ To deliver a data-driven analysis that uncovers patterns and trends in global we
 16. *What trends can be observed in the wealth accumulation of younger versus older billionaires?*
 17. *How has the number of billionaires evolved over time, particularly in key industries?*
 
-### 1.3 💾 Dataset Summary
+### 1.3 Dataset Summary 💾
 The dataset used in this project contains comprehensive information about billionaires. The data was sourced from [kaggle]([https://www.forbes.com/billionaires/](https://www.kaggle.com/datasets/nelgiriyewithana/billionaires-statistics-dataset)). Below is a table of the data summary.
 
 | Column    | Description                                                      |
@@ -323,10 +323,10 @@ The data highlights the predominance of self-made billionaires in the current ec
 ## **🔚 4. Conclusion & Summary**
 <a href=#cont>Back to Project Structure</a>
 
-### ✅ 4.1 Conclusion
+### 4.1 Conclusion ✅
 The analysis provides a comprehensive look at the world's billionaire population and the various factors influencing wealth creation and distribution. By correlating socioeconomic factors with billionaire presence, this project sheds light on how wealth is amassed and maintained globally.
 
-### 💡 4.2 Summary
+### 4.2 Summary 💡
 The analysis of the world's billionaires dataset involved examining key metrics such as net worth, industries, geographical distribution, and the age of billionaires. The key findings include:
 - **Wealth Distribution**: Analysis of net worth reveals significant disparities between self-made and inherited billionaires.
 - **Geographic Focus**:  Wealth is highly concentrated in certain countries, cities, and industries, with the United States and China, as well as sectors like technology and finance, leading in billionaire density.
@@ -340,7 +340,7 @@ The analysis of the world's billionaires dataset involved examining key metrics 
 <a href=#cont>Back to Project Structur</a>
 
 ------
-## 🛠 Technologies Used
+## Technologies Used 🛠 
 
 - **Python**: Data manipulation and analysis
 - **Pandas**: For data manipulation
@@ -350,7 +350,7 @@ The analysis of the world's billionaires dataset involved examining key metrics 
 - **Jupyter Notebook**: For organizing the analysis
 
 ---
-## 🚀 How to Run This Project
+## How to Run This Project 🚀 
 
 1. **Clone the Repository**  
    Run the following command to clone the repository to your local machine:
