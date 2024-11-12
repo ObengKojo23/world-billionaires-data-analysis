@@ -325,6 +325,7 @@ The analysis of the world's billionaires dataset involved examining key metrics 
  <a id="five"></a>
 ## **📁 5. Project Details**
 <a href=#cont>Back to Project Structure</a>
+
 ---
 ### 5.1 Technologies Used 🛠 
 - **Python**: Data manipulation and analysis
