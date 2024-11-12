@@ -1,3 +1,4 @@
+![](./images/banner.png)
 # 💰💵 **World’s Billionaires Data Analysis** 💵💰
 ---
 
@@ -126,7 +127,6 @@ These data cleaning steps resulted in a well-structured dataset ready for full a
  <a id="three"></a>
 ## **📊 3. Visualisation of Results**
 <a href=#cont>Back to Project Structure</a>
-## Visualisation of Results
 
 ### 3.1 Who is the wealthiest person on the planet as at August 2023❓
 ![](./images/5.1.png)
