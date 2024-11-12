@@ -1,5 +1,5 @@
 ![](./images/banner.png)
-# <p align="center">World’s Billionaires Data Analysis</p>
+# World’s Billionaires Data Analysis
 
 
 <a id="cont"></a>
