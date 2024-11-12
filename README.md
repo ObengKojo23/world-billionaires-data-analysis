@@ -49,7 +49,7 @@ To deliver a data-driven analysis that uncovers patterns and trends in global we
 17. *How has the number of billionaires evolved over time, particularly in key industries?*
 
 ### 1.3 Dataset Summary 💾
-The dataset used in this project contains comprehensive information about billionaires. The data was sourced from [kaggle](https://www.kaggle.com/datasets/nelgiriyewithana/billionaires-statistics-dataset)). Below is a table of the dataset summary.
+The dataset used in this project contains comprehensive information about billionaires. The data was sourced from [kaggle](https://www.kaggle.com/datasets/nelgiriyewithana/billionaires-statistics-dataset). Below is a table of the dataset summary.
 
 | Column    | Description                                                      |
 |-----------|------------------------------------------------------------------|
