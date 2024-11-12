@@ -28,7 +28,7 @@ This project aims to explore various aspects of the global billionaire populatio
 
 ### 1.2 Objective 🎯
 
-To deliver a data-driven analysis that uncovers patterns and trends in global wealth distribution among billionaires. The objective is to identify key characteristics that distinguish self-made versus inherited wealth, understand how demographics and economic indicators correlate with billionaire populations, and examine the factors contributing to the concentration of wealth in certain regions and industries. This project aims to offer actionable insights into the global wealth landscape and the forces shaping it by answering these underlisted 17 questions.
+To deliver a data-driven analysis that uncovers patterns and trends in global wealth distribution among billionaires. This project aims to answer these underlisted 17 questions.
 
 1. *What is the distribution of billionaires by gender?*
 2. *How is wealth distributed among self-made billionaires compared to those who inherited their wealth?*
