@@ -1,22 +1,31 @@
 # 💰💵 **World’s Billionaires Data Analysis** 💵💰
+---
 
-### 🛠 Technologies Used
+<a id="cont"></a>
 
-- **Python**: Data manipulation and analysis
-- **Pandas**: For data manipulation
-- **Matplotlib & Seaborn**: For data visualization
-- **Plotly**: For interactive visualizations
-- **Scipy**: For statistical analysis
-- **Jupyter Notebook**: For organizing the analysis
+## **Project Structure**
+
+<a href=#one>1. Introduction</a>
+
+<a href=#two>2. Data Processing & Preparation</a>
+
+<a href=#three>3. Visualisation of Results</a>
+
+<a href=#four>4. Conclusion</a>
+
+<a href=#five>5. </a>
+
+<a href=#six>. Conclusion</a>
 
 ---
-### 🌍 Project Overview
-
+ <a id="one"></a>
+## **📊 1. Introduction**
+<a href=#cont>Back to Project Structure</a>
+### 1.1 Project Overview
 This project aims to explore various aspects of the global billionaire population using a dataset of billionaires, including their demographic details, wealth, and geographical distribution. The focus is on understanding how factors such as gender, age, region, and wealth type correlate with the concentration of billionaires worldwide. Additional insights include trends in self-made versus inherited wealth, birth month distributions, and the relationship between economic indicators and the number of billionaires in a country.
 
----
 
-### 🌍 Objective
+### 1.2 Objective
 
 To deliver a data-driven analysis that uncovers patterns and trends in global wealth distribution among billionaires. The objective is to identify key characteristics that distinguish self-made versus inherited wealth, understand how demographics and economic indicators correlate with billionaire populations, and examine the factors contributing to the concentration of wealth in certain regions and industries. This project aims to offer actionable insights into the global wealth landscape and the forces shaping it.
 
@@ -40,8 +49,7 @@ The project seeks to answer these 17 questions
 16. **What trends can be observed in the wealth accumulation of younger versus older billionaires?**
 17. **How has the number of billionaires evolved over time, particularly in key industries?**
 
-
-### 💾 Dataset Summary
+### 1.3 💾 Dataset Summary
 The dataset used in this project contains comprehensive information about billionaires. The data was sourced from [kaggle]([https://www.forbes.com/billionaires/](https://www.kaggle.com/datasets/nelgiriyewithana/billionaires-statistics-dataset)). Below is a table of the data summary.
 
 | Column    | Description                                                      |
@@ -84,58 +92,44 @@ The dataset used in this project contains comprehensive information about billio
 
 ---
 
-### 🚀 How to Run This Project
+ <a id="two"></a>
+## **📊 2. Data Processing and Preparation**
+<a href=#cont>Back to Project Structure</a>
 
-1. **Clone the Repository**  
-   Run the following command to clone the repository to your local machine:
-   ```bash
-   git clone https://github.com/ObengKojo23/worlds-billionaires-analysis.git
-2. **Install Dependencies**  
-   Install the required Python packages by running:
-   ```bash
-   pip install -r requirements.txt
-3. **Run the Jupyter Notebook**  
-   Start Jupyter Notebook and run the `billionaires-data-analysis-2023.ipynb` file to reproduce the analysis. Use the following command to launch Jupyter:
-   Make sure that you have the dataset and the jupyter notebook file in the directory else you may have to change the read csv path in the notebook provided.
-   ```bash
-   jupyter notebook
----
-
- 
----
-## Data Processing & Preparation
 For the data processing and preparation for this project I employed several steps to ensure consistency, accuracy, and usability of the dataset. Here’s a summary of the transformations I applied:
 
-1. **Column Formatting**:
+- **Column Formatting**:
    - All column names were standardized to lowercase, and spaces were replaced with underscores for easier access and consistency.
 
-2. **Data Type Conversion**:
+- **Data Type Conversion**:
    - The `gdp_country` column had dollar signs (`$`) and commas removed, and the data type was converted to `float` to support numerical analysis.
    - Similarly, the `finalworth` column had the dollar sign and "B" (billion) symbol removed and was converted to a float, assuming figures are in billions.
 
-3. **Date Formatting**:
+- **Date Formatting**:
    - The `date` column was converted to a datetime format and displayed as `MM/DD/YYYY` for consistency in date representation.
 
-4. **Column Renaming**:
+- **Column Renaming**:
    - Key columns were renamed for clarity and consistency, such as changing `personname` to `full_name` and `countryofcitizenship` to `country_of_citizenship`.
 
-5. **Month Conversion**:
+- **Month Conversion**:
    - A dictionary was created to convert numeric month values (1 to 12) to their corresponding three-letter month abbreviations (e.g., `1` to `Jan`). This was applied to the `birth_month` column to improve readability.
 
-6. **Handling Missing Values**:
+- **Handling Missing Values**:
    - For specified columns (`country`, `title`, `organization`, `residence_state_region`, `state`), missing values were filled with "Unknown" to avoid issues with null data during analysis and to maintain data completeness.
 
-7. **Region Mapping**:
+- **Region Mapping**:
    - A dictionary was created to map each country to its respective region (e.g., `France` to `Europe`, `India` to `Asia`). A new column, `region`, was added based on the `country_of_citizenship` column, providing a broader regional context for each billionaire's country.
 
 These data cleaning steps resulted in a well-structured dataset ready for full analysis and visualisation.
 
 ---
 
-
+ <a id="three"></a>
+## **📊 3. Visualisation of Results**
+<a href=#cont>Back to Project Structure</a>
 ## Visualisation of Results
 
-### 5.1 Who is the wealthiest person on the planet as at August 2023❓
+### 3.1 Who is the wealthiest person on the planet as at August 2023❓
 ![](./images/5.1.png)
 
 #### 🌟Key Insights
@@ -155,7 +149,7 @@ These data cleaning steps resulted in a well-structured dataset ready for full a
 - **Cultural Influence**: The company is heavily involved in arts and culture, sponsoring events and exhibitions, and supporting creativity through initiatives like the LVMH Prize for Young Fashion Designers.
   
 ---
-### 5.2 What is the distribution of billionaires by country❓
+### 3.2 What is the distribution of billionaires by country❓
 ![](./images/5.2.png)
 ####  🌟Key Insights
 - The `United States` leads significantly in the number of billionaires, indicating a strong concentration of wealth and entrepreneurial success.
@@ -165,7 +159,7 @@ These data cleaning steps resulted in a well-structured dataset ready for full a
 These findings highlight the global disparities in wealth concentration among billionaires and the economic conditions influencing these distributions.
 
 ---
-### 5.3 What is the distribution of billionaires by region❓
+### 3.3 What is the distribution of billionaires by region❓
 ![](./images/5.3.png)
 ####  🌟Key Insights
 - `Asia` has the highest concentration of billionaires, driven primarily by `China and India`, reflecting its robust economy and entrepreneurial environment.
@@ -176,7 +170,7 @@ These findings highlight the global disparities in wealth concentration among bi
 These findings emphasize the geographical disparities in billionaire wealth and the economic factors contributing to these distributions.
 
 ---
-### 5.4 What is the gender distribution among billionaires globally❓
+### 3.4 What is the gender distribution among billionaires globally❓
 ![](./images/5.4.png)
 ####  🌟Key Insights
 - The `bar chart` clearly shows that there are significantly more male billionaires `(2303)` compared to female billionaires `(337)`, reflecting the ongoing gender disparities in wealth accumulation and business leadership.
@@ -184,14 +178,14 @@ These findings emphasize the geographical disparities in billionaire wealth and 
 - These findings highlight the need for continued efforts to promote gender equality and empower women in business and entrepreneurship to bridge the wealth gap.
 
 ---
-### 5.5 How do the numbers of male and female billionaires vary across different industries❓
+### 3.5 How do the numbers of male and female billionaires vary across different industries❓
 ![](./images/5.5.png)
 ####  🌟Key Insights
 - **Gender Disparity**: The data reveals a significant gender disparity, with male billionaires outnumbering female billionaires in all industries. A key observation is that there is `no` female billionaire in the Telecom industry. This highlights the ongoing challenges women face in achieving equal representation and success in wealth accumulation.
 - **Call to Action**: The visualization underscores the importance of fostering diversity and inclusion within industries, emphasizing the need for policies and initiatives aimed at empowering women in business and leadership roles.
 
 ---
-### 5.6 How does age correlate with net worth among billionaires❓
+### 3.6 How does age correlate with net worth among billionaires❓
 ![](./images/5.6.png)
 ####  🌟Key Insights
 - **Peak Billionaire Age Groups**: The highest number of billionaires falls within the `55-59` age group `(376 billionaires)`, followed by the `60-64` group `(351 billionaires)`. This indicates that most billionaires are in their late middle age.
@@ -205,7 +199,7 @@ These findings emphasize the geographical disparities in billionaire wealth and 
 Overall, billionaires are more likely to be found in the `45-79` age range, reflecting that substantial wealth accumulation takes time and typically peaks in late middle age.
 
 ---
-### 5.7 What industries or sectors have the highest concentration of billionaires❓
+### 3.7 What industries or sectors have the highest concentration of billionaires❓
 ![](./images/5.7.png)
 ####  🌟Key Insights
 - **Leading Industries**: The  `finance & investments` sector emerges as the industry with the highest concentration of billionaires, followed by `manufacturing` and `Technology`. This reflects the significant wealth creation potential within these sectors.
@@ -214,7 +208,7 @@ Overall, billionaires are more likely to be found in the `45-79` age range, refl
 - **Implications for Policy**: Understanding the industries that generate significant wealth can inform policymakers and economic planners in fostering environments that support entrepreneurial growth and innovation.
 
 ---
-### 5.8 What percentage of billionaires are self-made versus inherited wealth❓
+### 3.8 What percentage of billionaires are self-made versus inherited wealth❓
 ![](./images/5.8.png)
 ####  🌟Key Insights
 
@@ -231,7 +225,7 @@ Overall, billionaires are more likely to be found in the `45-79` age range, refl
 The data highlights the predominance of self-made billionaires in the current economic landscape, reflecting a culture that supports entrepreneurship and personal achievement.
 
 ---
-### 5.9 Which industries have the highest concentration of billionaires, and how does their average net worth vary across these industries❓
+### 3.9 Which industries have the highest concentration of billionaires, and how does their average net worth vary across these industries❓
 ![](./images/5.9.png)
 ####  🌟Key Insights
 - **Industry Distribution**: Certain industries, like `technology` and `finance`, have the highest number of billionaires, indicating lucrative opportunities in these sectors.
@@ -241,7 +235,7 @@ The data highlights the predominance of self-made billionaires in the current ec
 - **Investment Insights**: The analysis highlights potential investment opportunities in sectors with high counts and average net worth, guiding strategic economic decisions.
 
 --- 
-### 5.10 How many billionaires are there in total and what is their total wealth❓
+### 3.10 How many billionaires are there in total and what is their total wealth❓
 ![](./images/5.10.png)
 ####  🌟Key Insights
 - **Total Number of Billionaires**: 
@@ -251,7 +245,7 @@ The data highlights the predominance of self-made billionaires in the current ec
    - The combined total wealth of these billionaires is approximately `$12.21 trillion`.
 
 ---
-### 5.11 Which city is the most preferred residence for billionaires❓
+### 3.11 Which city is the most preferred residence for billionaires❓
 ![](./images/5.11.png)
 ####  🌟Key Insights
 - **Leading Cities**: `New York`, `Beijing`, `Hong Kong`, `Shanghai`, `London` and `Moscow` dominate the list, indicating their status as global financial and economic hubs.
@@ -260,7 +254,7 @@ The data highlights the predominance of self-made billionaires in the current ec
 - **Implications for Urban Planning**: Understanding the wealth distribution across cities can help policymakers focus on fostering environments that attract and retain wealthy individuals and entrepreneurs.
 
 ---
-### 5.12 In what month are most billionaires born❓
+### 3.12 In what month are most billionaires born❓
 ![](./images/5.12.png)
 ####  🌟Key Insights
 - **Peak Birth Months**: `January` has the highest number `(550)` of billionaires and is more than twice the nearest month. Certain months, such as `October`, `September`, `March` and `July` show a higher concentration of billionaire births. Does this suggests any potential seasonal or astrological influences on wealth accumulation?
@@ -269,7 +263,7 @@ The data highlights the predominance of self-made billionaires in the current ec
 - **Implications for Wealth Trends**: Understanding the birth month distribution of billionaires can provide insights into the socio-economic conditions and opportunities that may influence successful outcomes in these months.
 
 ---
-### 5.13 In what day of the week are most billionaires born❓
+### 3.13 In what day of the week are most billionaires born❓
 ![](./images/5.13.png)
 ####  🌟Key Insights
 - **Peak Birth Day**: The data indicates that most billionaires are born on Tuesdays `(396)`.
@@ -277,7 +271,7 @@ The data highlights the predominance of self-made billionaires in the current ec
 - **Implications for Wealth Trends**: The distribution of billionaire births by day of the week is fairly distributed. Anyone can therefore, be a billionaire if he or she puts in the hard work.
 
 ---
-### 5.14 In what day of the month are most billionaires born❓
+### 3.14 In what day of the month are most billionaires born❓
 ![](./images/5.14.png)
 ####  🌟Key Insights
 
@@ -298,7 +292,7 @@ The data highlights the predominance of self-made billionaires in the current ec
   - **Statistical Anomaly**: The 31st may also be subject to statistical anomalies, where it could be a day less favored for scheduling births, leading to a lower count compared to other days.
 
 ---
-### 5.15 What regions have the highest concentration of young billionaires❓
+### 3.15 What regions have the highest concentration of young billionaires❓
 ![](./images/5.15.png)
 ####  🌟Key Insights
 - **Leading Regions**: Europe leads with `29 young billionaires`, followed closely by Asia with `27`. North America also has a notable presence, with `23 young billionaires`.
@@ -307,7 +301,7 @@ The data highlights the predominance of self-made billionaires in the current ec
 - **Implications**: These trends may reflect differences in economic opportunities, educational access, and entrepreneurial ecosystems across regions, providing insights for policymakers and investors looking to support young wealth creators.
 
 ---
-### 5.16 Is there a correlation between a country’s economic indicator, Consumer Price Index (CPI) and the number of billionaires it has❓
+### 3.16 Is there a correlation between a country’s economic indicator, Consumer Price Index (CPI) and the number of billionaires it has❓
 ![](./images/5.16.png)
 ![](./images/5.16b.png)
 #### 🌟Key Insights
@@ -317,7 +311,7 @@ The data highlights the predominance of self-made billionaires in the current ec
   
 .
 ---
-### 5.17 Is there a correlation between a country’s economic indicator, Gross Domestic Product (GDP) and the number of billionaires it has❓
+### 3.17 Is there a correlation between a country’s economic indicator, Gross Domestic Product (GDP) and the number of billionaires it has❓
 ![](./images/5.17.png)
 ![](./images/5.17b.png)
 ####  🌟Key Insights
@@ -332,17 +326,43 @@ The data highlights the predominance of self-made billionaires in the current ec
 - **Geographic Focus**:  Wealth is highly concentrated in certain countries, cities, and industries, with the United States and China, as well as sectors like technology and finance, leading in billionaire density.
 - **Demographics**: Trends in gender and age distribution show that most billionaires fall within specific age brackets, and self-made wealth is more common among younger billionaires.
 
+ <a id="4"></a>
+## **📊 4. Conclusion**
+<a href=#cont>Back to Project Structure</a>
 ---
-
-### 📊 Conclusion 
-
 The analysis provides a comprehensive look at the world's billionaire population and the various factors influencing wealth creation and distribution. By correlating socioeconomic factors with billionaire presence, this project sheds light on how wealth is amassed and maintained globally.
 
-## Conclusion
 
-This analysis provides valuable insights into the demographics and distribution of global billionaires. Understanding these patterns can inform economic studies, investment strategies, and policy-making. Future work could include a deeper dive into the factors contributing to wealth accumulation and the impact of global economic changes on billionaire demographics.
+
+------
+## 🛠 Technologies Used
+
+- **Python**: Data manipulation and analysis
+- **Pandas**: For data manipulation
+- **Matplotlib & Seaborn**: For data visualization
+- **Plotly**: For interactive visualizations
+- **Scipy**: For statistical analysis
+- **Jupyter Notebook**: For organizing the analysis
 
 ---
+## 🚀 How to Run This Project
+
+1. **Clone the Repository**  
+   Run the following command to clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/ObengKojo23/worlds-billionaires-analysis.git
+2. **Install Dependencies**  
+   Install the required Python packages by running:
+   ```bash
+   pip install -r requirements.txt
+3. **Run the Jupyter Notebook**  
+   Start Jupyter Notebook and run the `billionaires-data-analysis-2023.ipynb` file to reproduce the analysis. Use the following command to launch Jupyter:
+   Make sure that you have the dataset and the jupyter notebook file in the directory else you may have to change the read csv path in the notebook provided.
+   ```bash
+   jupyter notebook
+---
+
+
 Contributing
 Contributions are welcome! If you have suggestions or improvements, please create a pull request or open an issue.
 
