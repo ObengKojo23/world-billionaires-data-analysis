@@ -104,7 +104,7 @@ The dataset used in this project contains comprehensive information about billio
  
 ---
 ## Data Processing & Preparation
-The data processing and preparation for this project involved several steps to ensure consistency, accuracy, and usability of the dataset. Here’s a summary of the transformations applied:
+For the data processing and preparation for this project I employed several steps to ensure consistency, accuracy, and usability of the dataset. Here’s a summary of the transformations I applied:
 
 1. **Column Formatting**:
    - All column names were standardized to lowercase, and spaces were replaced with underscores for easier access and consistency.
@@ -128,9 +128,11 @@ The data processing and preparation for this project involved several steps to e
 7. **Region Mapping**:
    - A dictionary was created to map each country to its respective region (e.g., `France` to `Europe`, `India` to `Asia`). A new column, `region`, was added based on the `country_of_citizenship` column, providing a broader regional context for each billionaire's country.
 
-These data cleaning steps resulted in a well-structured dataset ready for analysis, with standardized column names, consistent date and currency formats, filled missing values, mapped regional information, and improved readability of categorical values.
+These data cleaning steps resulted in a well-structured dataset ready for full analysis and visualisation.
 
 ---
+
+
 ## Visualisation of Results
 
 ### 5.1 Who is the wealthiest person on the planet as at August 2023❓
