@@ -1,4 +1,4 @@
-no![](./images/banner.png)
+![](./images/banner.png)
 # World’s Billionaires Data Analysis
 
 
